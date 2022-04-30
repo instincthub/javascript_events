@@ -13,9 +13,9 @@ Before starting this tutorial, you don't need any previous JavaScript knowledge,
 ## Activity 2
 currently, the handlers are inside of the p tags, using what you've learnt, set the event handlers inside the Javascript file instead.
 
-###Instriction:
-1. Download the project and work on the `[event_listener](https://github.com/instincthub/javascript_events)` directory.
-2. In the directory, you are to work on: `[refactoring_onclick.html](https://github.com/instincthub/javascript_events/blob/main/event_listener/refactoring_onclick.html)` and `[assets/script.js](https://github.com/instincthub/javascript_events/blob/main/event_listener/assets/script.js)`.
+### Instriction:
+1. Download the project and work on the [`event_listener`](https://github.com/instincthub/javascript_events) directory.
+2. In the directory, you are to work on: [`refactoring_onclick.html`](https://github.com/instincthub/javascript_events/blob/main/event_listener/refactoring_onclick.html) and [`assets/script.js`](https://github.com/instincthub/javascript_events/blob/main/event_listener/assets/script.js).
 3. Remove all all `even` on the `p` tags
 4. Add unique `IDs` to the `p` tags.
 5. Target the `IDs` in the `script.js` file and add `addEventListener`.
