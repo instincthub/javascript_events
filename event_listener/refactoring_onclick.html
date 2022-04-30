@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Event Handling</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>Javascript Events</title>
+        <link rel="stylesheet" href="../mouse_events/master.css">
+      </head>
+      <body>
+
+
+        <div class="container">
+
+          <!-- onclick -->
+          <p onclick="changeText(this, 'Ooops!')">Click on this text!</p>
+
+          <!-- onmousemove -->
+          <p onmousemove="changeText(this, 'Thank You')" onmouseout="changeText(this, 'Mouse Over Me')">Mouse Over Me</p>
+
+          <!-- onmousedown -->
+          <p onmousedown="changeText(this, 'Release Me')" onmouseup="changeText(this, 'Mouse Down')">Mouse Down</p>
+
+          <!-- onmouseover -->
+          <p onmouseover="changeText(this, 'Take the Mouse Out')" onmouseout="changeText(this, 'Mouse Over Me')">Mouse Over Me</p>
+
+        </div>
+
+        <!-- ===================
+          currently, the handlers are inside of the p tags,
+          using what you've learnt, set the event handlers
+          inside the javascrip file instead.
+        ======================== -->
+
+      </body>
+    </html>
+
+    <script src="assets/script.js" charset="utf-8"></script>
+  </body>
+</html>

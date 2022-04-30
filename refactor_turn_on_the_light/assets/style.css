@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+  background: #2c333a;
+  font-family: sans-serif;
+}
+.lightup h2{
+  text-align: center;
+  color: #ffffff;
+  margin-top: 70px;
+}
+
+.lightup img.bulb{
+  max-width: 500px;
+  margin: auto;
+  display: block
+}
+
+@media (max-width: 700px) {
+  .lightup img.bulb{
+    width: 100%;
+  }
+}
