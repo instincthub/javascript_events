@@ -11,11 +11,18 @@ JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic langua
 Before starting this tutorial, you don't need any previous JavaScript knowledge, but you should have some familiarity with [HTML](https://skills.instincthub.com/course/html-fundamentals/) and [CSS](https://skills.instincthub.com/course/introduction-css-basics/). You are advised to know these two components of the web before starting on JavaScript:
 
 ## Activity 2
-currently, the handlers are inside of the p tags, using what you've learnt, set the event handlers inside the Javascript file instead.
+Currently, in the `event_listener` project, the handlers are still inside of the `p` tags, using what you've learnt, set the event handlers to be inside of the Javascript file instead.
 
 ### Instriction:
 1. Download the project and work on the [`event_listener`](https://github.com/instincthub/javascript_events) directory.
 2. In the directory, you are to work on: [`refactoring_onclick.html`](https://github.com/instincthub/javascript_events/blob/main/event_listener/refactoring_onclick.html) and [`assets/script.js`](https://github.com/instincthub/javascript_events/blob/main/event_listener/assets/script.js).
-3. Remove all all `even` on the `p` tags
+3. Remove all `events` attributes inside of the `p` tags
 4. Add unique `IDs` to the `p` tags.
 5. Target the `IDs` in the `script.js` file and add `addEventListener`.
+6. Finally make sure that all the behaviours still works as usual.
+
+
+## Helpful links
+* [What is JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript) - mozilla network
+* [JavaScript Introduction](https://www.w3schools.com/js/js_intro.asp) - w3schools
+* [6 Rules for Naming Variables in Programming](https://instincthub.com/6-rules-for-naming-variables-in-programming/) - instincthub
